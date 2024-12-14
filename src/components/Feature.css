@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.featured-post {
+  flex: 3;
+}
+
+.featured-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.post-content {
+  margin-top: 10px;
+}
+
+.read-more {
+  background-color: #ffd700;
+  color: #ffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.all-posts {
+  flex: 2;
+}
+
+.all-posts ul {
+  list-style: none;
+  padding: 2px 0px;
+}
+
+.all-posts li {
+  margin-top: 50px;
+  color: black;
+}
+
+.all-posts .highlighted {
+  background-color: #f2e8cc;
+  color: black;
+  padding: 5px;
+  border-radius: 4px;
+}
